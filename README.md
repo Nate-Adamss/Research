@@ -1,2 +1,2 @@
 # Research
-A collection of some of my astrophysical research.
+Contains data pipelines that produce scientific results from raw data. There is a data pipeline for obtaining cleaned and binned lightcurves (flux vs. time graph), a pipeline for analyzing FITS files in order to see flux ratios between different parts of a galaxy, a pipeline for obtaining lightcurve data that results in Color vs. Color graphs, and a simple function that combines an object's motion in two directions into one value and estimates how far away it is.
