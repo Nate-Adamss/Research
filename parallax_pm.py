@@ -108,3 +108,17 @@ def compute_pm_parallax(
 
     return out_df
 
+
+
+if __name__ == "__main__":
+    # Example usage with a small synthetic DataFrame
+    import pandas as pd
+    sample = pd.DataFrame({
+        "ra": [266.57175], "dec": [35.57192],
+        "pmra": [2.3], "pmra_error": [0.1],
+        "pmdec": [-1.1], "pmdec_error": [0.08],
+        "parallax": [4.2], "parallax_error": [0.3]
+    })
+    result = compute_pm_parallax(sample)
+    print(result)
+
